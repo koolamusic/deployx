@@ -17,7 +17,15 @@
     wget -nv -O - https://get.docker.com/ | sh
   fi
 
+# INSTRUCTIONS FOR DOCKER PERMISSIONS
+echo "Add user to docker group"
+sudo usermod -aG docker ${USER}
 
+su - ${USER}
+sudo usermod -aG docker ${USER}
+
+echo "confirm that user belongs to docker group:: docker should be highlighted in red"
+id -nG | grep docker
 
 
 # DOCKER SETUP FOR CAPROVER
