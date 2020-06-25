@@ -23,7 +23,8 @@
 # DOCKER SETUP FOR CAPROVER
 docker run -p 80:80 -p 443:443 -p 3000:3000 -v /var/run/docker.sock:/var/run/docker.sock -v /captain:/captain caprover/caprover
 
-echo "Next proces is to install Node and npm:: will start in 90 seconds."
+echo "Next process ---install Node and npm--- will in exactly start in 90 seconds."
+date
 sleep 90
 
 
@@ -38,7 +39,8 @@ sudo apt-get install -y nodejs
 
 
 # SETUP CAPROVER USING NPM
-npm install -g caprover
+echo "----> install caprover cli"
+sudo npm install -g caprover
 
 echo "Being Caprover Setup Setup in 30 seconds. Please answer the questions correctly"
 sleep 30
