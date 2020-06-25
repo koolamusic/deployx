@@ -42,7 +42,7 @@ sudo apt-get install -y nodejs
 echo "----> install caprover cli"
 sudo npm install -g caprover
 
-echo "Being Caprover Setup Setup in 30 seconds. Please answer the questions correctly"
+echo "Begin Caprover Setup Setup in 30 seconds. Please answer the questions correctly"
 sleep 30
 
 
