@@ -34,3 +34,11 @@ sleep 90
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+
+
+
+# SETUP CAPROVER USING NPM
+npm install -g caprover
+
+echo "Being Caprover Setup Setup in 30 seconds. Please answer the questions correctly"
+sleep 30
