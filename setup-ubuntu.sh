@@ -42,3 +42,7 @@ npm install -g caprover
 
 echo "Being Caprover Setup Setup in 30 seconds. Please answer the questions correctly"
 sleep 30
+
+
+# setup
+caprover serversetup
