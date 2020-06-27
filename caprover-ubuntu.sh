@@ -20,7 +20,7 @@
 # INSTRUCTIONS FOR DOCKER PERMISSIONS
 echo "Add user to docker group"
 sudo usermod -aG docker ${USER}
-su - ${USER}
+# su - ${USER}
 sudo usermod -aG docker ${USER}
 
 # su - ${USER}
